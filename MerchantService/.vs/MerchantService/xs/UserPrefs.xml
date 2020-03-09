@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{E3213F72-817A-4B99-8493-83973CD5D1DC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+    <Files>
+      <File FileName="Model/Models.cs" Line="1" Column="1" />
+      <File FileName="Model/MSContext.cs" />
+      <File FileName="Application/UseCases/MerchantMediator/Commands/DeleteMerchantCommand.cs" />
+      <File FileName="Application/UseCases/MerchantMediator/Commands/PostMerchantCommand.cs" />
+      <File FileName="Application/UseCases/MerchantMediator/Commands/DeleteMerchantCommandHandler.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Application/UseCases/MerchantMediator/Queries/GetMerchant/GetMerchantQueryHandler.cs" />
+      <File FileName="appsettings.json" Line="11" Column="103" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MerchantService" expanded="True">
+            <Node name="MerchantService" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MerchantService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
