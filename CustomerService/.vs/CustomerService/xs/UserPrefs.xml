@@ -1,30 +1,26 @@
 ﻿<Properties StartupConfiguration="{93D8A590-846F-4AE5-81FE-A16290BCE1A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
     <Files>
-      <File FileName="Controllers/CustomerPayController.cs" Line="1" Column="1" />
-      <File FileName="Controllers/UserController.cs" />
-      <File FileName="appsettings.json" Line="12" Column="4" />
-      <File FileName="Startup.cs" Line="78" Column="37" />
-      <File FileName="Validator/CustomerPayValidator.cs" />
-      <File FileName="Validator/RequestValidator.cs" />
-      <File FileName="Model/Models.cs" />
-      <File FileName="Validator/CustomerValidator.cs" />
-      <File FileName="Application/UseCases/UserMediator/Commands/PostUserCommand.cs" />
-      <File FileName="Application/UseCases/UserMediator/Commands/PostUserCommandHandler.cs" />
-      <File FileName="Properties/launchSettings.json" Line="28" Column="2" />
-      <File FileName="Application/UseCases/CustomerMediator/Queries/GetCustomer/GetCustomerQueryHandler.cs" />
-      <File FileName="Application/UseCases/CustomerMediator/Queries/GetCustomers/GetCustomersQueryHandler.cs" />
-      <File FileName="Application/UseCases/CustomerPayMediator/Queries/GetCustomerPayDTO/GetCustomerPayQueryHandler.cs" Line="1" Column="1" />
-      <File FileName="Model/CSContext.cs" Line="1" Column="1" />
+      <File FileName="Dockerfile" Line="1" Column="1" IsPinned="True" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="29" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomerService" expanded="True">
             <Node name="CustomerService" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="UseCases" expanded="True">
+                  <Node name="UserMediator" expanded="True">
+                    <Node name="Commands" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
               <Node name="Model" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
