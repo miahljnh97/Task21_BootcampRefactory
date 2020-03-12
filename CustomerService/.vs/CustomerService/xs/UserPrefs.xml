@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{93D8A590-846F-4AE5-81FE-A16290BCE1A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
     <Files>
-      <File FileName="Dockerfile" Line="1" Column="1" IsPinned="True" />
-      <File FileName="appsettings.json" Line="1" Column="1" />
-      <File FileName="Properties/launchSettings.json" Line="29" Column="4" />
+      <File FileName="Application/UseCases/CustomerPayMediator/Queries/GetCustomersPaysDTO/GetCustomerPaysQueryHandler.cs" Line="13" Column="74" />
+      <File FileName="Application/UseCases/CustomerPayMediator/Queries/GetCustomersPaysDTO/GetCustomerPaysDTO.cs" Line="13" Column="1" />
+      <File FileName="Application/UseCases/CustomerPayMediator/Queries/GetCustomersPaysDTO/GetCustomerPaysQuery.cs" Line="6" Column="68" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="11" Column="42" />
+      <File FileName="Application/UseCases/CustomerMediator/Queries/GetCustomers/GetCustomersQueryHandler.cs" Line="12" Column="70" NotebookId="1" />
+      <File FileName="Application/UseCases/CustomerMediator/Queries/GetCustomers/GetCustomersDTO.cs" Line="8" Column="18" NotebookId="1" />
+      <File FileName="Application/UseCases/CustomerMediator/Queries/GetCustomers/GetCustomersQuery.cs" Line="6" Column="18" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,15 +17,26 @@
             <Node name="CustomerService" expanded="True">
               <Node name="Application" expanded="True">
                 <Node name="UseCases" expanded="True">
+                  <Node name="CustomerMediator" expanded="True">
+                    <Node name="Queries" expanded="True">
+                      <Node name="GetCustomers" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="CustomerPayMediator" expanded="True">
+                    <Node name="Queries" expanded="True">
+                      <Node name="GetCustomerPayDTO" expanded="True" />
+                      <Node name="GetCustomersPaysDTO" expanded="True" />
+                    </Node>
+                  </Node>
                   <Node name="UserMediator" expanded="True">
                     <Node name="Commands" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Model" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

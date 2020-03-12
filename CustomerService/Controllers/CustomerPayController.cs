@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace CustomerService.Controllers
 {
     [ApiController]
-    [Authorize]
     [Route("[Controller]")]
     public class CustomerPaymentController : ControllerBase
     {

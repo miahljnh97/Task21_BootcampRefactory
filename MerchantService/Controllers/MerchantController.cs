@@ -12,7 +12,6 @@ using MerchantService.Model;
 namespace MerchantService.Controller
 {
     [ApiController]
-    [Authorize]
     [Route("[Controller]")]
     public class MerchantController : ControllerBase
     {
