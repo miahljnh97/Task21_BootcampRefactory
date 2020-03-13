@@ -28,9 +28,6 @@ services:
         image: postgres:latest
         environment: 
             POSTGRES_PASSWORD: docker
-        deploy:
-            placement:
-                constraints:[node.role == manager]
         networks: 
             - co-networks
         ports:
