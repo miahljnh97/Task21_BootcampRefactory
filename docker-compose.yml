@@ -1,0 +1,41 @@
+version: '3'
+services:
+    customerservices:
+        image: miahljnh/customer-service
+        deploy:
+            replicas: 3
+        ports:
+            - "3000:80"
+        networks:
+            - co-networks
+    merchantservices:
+        image: miahljnh/merchant-service
+        deploy:
+            replicas: 3
+        ports:
+            - "4000:80"
+        networks:
+            - co-networks
+    productservices:
+        image: miahljnh/product-service
+        deploy:
+            replicas: 3
+        ports:
+            - "5000:80"
+        networks:
+            - co-networks
+    pg-docker:
+        image: postgres:latest
+        environment: 
+            POSTGRES_PASSWORD: docker
+        deploy:
+            placement:
+                constraints:[node.role == manager]
+        networks: 
+            - co-networks
+        ports:
+            - "5432:5432"
+            
+networks:
+    co-networks:
+        external: true

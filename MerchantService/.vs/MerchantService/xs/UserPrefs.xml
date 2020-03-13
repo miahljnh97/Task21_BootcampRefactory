@@ -10,9 +10,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MerchantService" expanded="True">
-            <Node name="MerchantService" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="MerchantService" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -22,9 +20,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/user/Projects/Task21_BootcampRefactory/MerchantService/Controllers/MerchantController.cs" relfile="Controllers/MerchantController.cs" line="34" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
